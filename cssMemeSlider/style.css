@@ -123,3 +123,43 @@ img {
     background-color: #bbb;
     border-radius: 50%;
 }
+
+#meme2:checked ~ .slider-memes,
+#meme2:checked ~ .slider-controls .slider-text .slider-container  {
+    transform: translateX(-20%);
+}
+
+#meme3:checked ~ .slider-memes,
+#meme3:checked ~ .slider-controls .slider-text .slider-container  {
+    transform: translateX(-40%);
+}
+
+#meme4:checked ~ .slider-memes,
+#meme4:checked ~ .slider-controls .slider-text .slider-container  {
+    transform: translateX(-60%);
+}
+
+#meme5:checked ~ .slider-memes,
+#meme5:checked ~ .slider-controls .slider-text .slider-container  {
+    transform: translateX(-80%);
+}
+
+#meme1:checked ~ .slider-controls .slider-radio .slider-check:nth-child(1) div{
+    background-color: #333;
+}
+
+#meme2:checked ~ .slider-controls .slider-radio .slider-check:nth-child(2) div{
+    background-color: #333;
+}
+
+#meme3:checked ~ .slider-controls .slider-radio .slider-check:nth-child(3) div{
+    background-color: #333;
+}
+
+#meme4:checked ~ .slider-controls .slider-radio .slider-check:nth-child(4) div{
+    background-color: #333;
+}
+
+#meme5:checked ~ .slider-controls .slider-radio .slider-check:nth-child(5) div{
+    background-color: #333;
+}
