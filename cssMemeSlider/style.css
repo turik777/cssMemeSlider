@@ -163,3 +163,23 @@ img {
 #meme5:checked ~ .slider-controls .slider-radio .slider-check:nth-child(5) div{
     background-color: #333;
 }
+
+@media (max-width: 768px) {
+    .slider {
+        width: 90%;
+        height: 50%;
+    }
+
+    .slider-memes {
+        height: 70%;
+    }
+
+    .slider-controls {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .slider-label {
+        font-size: 1em;
+    }
+}
